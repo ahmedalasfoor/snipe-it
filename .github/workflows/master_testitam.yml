@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'TestITAM'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BDB897A2BA7745B891676F919DBA925A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_337BA78791FB4386BAAD6F2E20403B94 }}
           package: .
