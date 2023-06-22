@@ -68,11 +68,11 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', 'localhost'),
-            'port'      => env('DB_PORT', '3306'),
-            'database'  => env('DB_DATABASE', 'forge'),
-            'username'  => env('DB_USERNAME', 'forge'),
-            'password'  => env('DB_PASSWORD', ''),
+            'host'      => env('AZURE_MYSQL_HOST', 'localhost'),
+            'port'      => env('AZURE_MYSQL_PORT', '3306'),
+            'database'  => env('AZURE_MYSQL_DBNAME', 'forge'),
+            'username'  => env('AZURE_MYSQL_USERNAME', 'forge'),
+            'password'  => env('AZURE_MYSQL_PASSWORD', ''),
             'charset'   => env('DB_CHARSET', 'utf8mb4'),
             'collation' => env('DB_COLLATION', 'utf8mb4_unicode_ci'),
             'prefix'    => env('DB_PREFIX', null),
